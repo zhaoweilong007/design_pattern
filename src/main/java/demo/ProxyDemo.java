@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 import java.lang.reflect.Proxy;
 import java.util.ArrayList;
@@ -10,7 +10,7 @@ import java.util.List;
  * @author ZhaoWeiLong
  * @date 2021/1/8
  */
-public class ProxyTest {
+public class ProxyDemo {
 
   private List<String> bannedSites =
       new ArrayList<String>() {
@@ -98,6 +98,6 @@ public class ProxyTest {
   }
 
   public static void main(String[] args) {
-    new ProxyTest();
+    new ProxyDemo();
   }
 }

@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 import java.util.Vector;
 
@@ -8,7 +8,7 @@ import java.util.Vector;
  * @author ZhaoWeiLong
  * @date 2021/1/11
  */
-public class ObServerTest {
+public class ObServerDemo {
 
   // 观察者
   interface ObServer {
@@ -77,6 +77,6 @@ public class ObServerTest {
   }
 
   public static void main(String[] args) {
-    new ObServerTest();
+    new ObServerDemo();
   }
 }

@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 import lombok.Data;
 
@@ -8,10 +8,10 @@ import lombok.Data;
  * @author ZhaoWeiLong
  * @date 2021/1/8
  */
-public class PrototypeTest {
+public class PrototypeDemo {
 
   public static void main(String[] args) {
-    PrototypeTest prototypeTest = new PrototypeTest();
+    PrototypeDemo prototypeTest = new PrototypeDemo();
   }
 
   {

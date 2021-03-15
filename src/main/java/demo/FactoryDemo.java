@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 /**
  * 工厂模式
@@ -10,7 +10,7 @@ package test;
  * @author ZhaoWeiLong
  * @date 2021/1/8
  */
-public class FactoryTest {
+public class FactoryDemo {
 
   // 抽象产品
   public interface KeyBoard {
@@ -100,6 +100,6 @@ public class FactoryTest {
   }
 
   public static void main(String[] args) {
-    new FactoryTest();
+    new FactoryDemo();
   }
 }

@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 /**
  * 装饰器模式
@@ -6,7 +6,7 @@ package test;
  * @author ZhaoWeiLong
  * @date 2021/1/8
  */
-public class DecoratorTest {
+public class DecoratorDemo {
 
   public abstract class Pancake {
 
@@ -100,7 +100,7 @@ public class DecoratorTest {
   }
 
   public static void main(String[] args) {
-    DecoratorTest test = new DecoratorTest();
+    DecoratorDemo test = new DecoratorDemo();
   }
 
   {

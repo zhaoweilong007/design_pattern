@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 /**
  * 单例模式 DCL双重检验锁
@@ -6,7 +6,7 @@ package test;
  * @author ZhaoWeiLong
  * @date 2021/1/8
  */
-public class SingletonTest {
+public class SingletonDemo {
 
   public static class Singleton {
 

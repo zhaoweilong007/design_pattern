@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 /**
  * 适配器模式
@@ -6,7 +6,7 @@ package test;
  * @author ZhaoWeiLong
  * @date 2021/1/11
  */
-public class AdapterTest {
+public class AdapterDemo {
 
   interface Target {
     /** 客户端请求处理的方法 */
@@ -60,6 +60,6 @@ public class AdapterTest {
   }
 
   public static void main(String[] args) {
-    new AdapterTest();
+    new AdapterDemo();
   }
 }

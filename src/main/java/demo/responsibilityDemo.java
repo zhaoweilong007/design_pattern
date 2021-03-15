@@ -1,4 +1,4 @@
-package test;
+package demo;
 
 
 /**
@@ -7,7 +7,7 @@ package test;
  * @author ZhaoWeiLong
  * @date 2021/1/11
  */
-public class responsibilityTest {
+public class responsibilityDemo {
 
   abstract class Handler {
     private Handler nextHandler;
@@ -103,6 +103,6 @@ public class responsibilityTest {
   }
 
   public static void main(String[] args) {
-    new responsibilityTest();
+    new responsibilityDemo();
   }
 }
