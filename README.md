@@ -1,18 +1,11 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-# 目录
+# 设计模式学习DEMO
 
 - [设计模式学习DEMO](#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%AD%A6%E4%B9%A0demo)
     - [设计模式的分类](#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E7%9A%84%E5%88%86%E7%B1%BB)
     - [设计模式七大原则](#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%83%E5%A4%A7%E5%8E%9F%E5%88%99)
     - [示例demo](#%E7%A4%BA%E4%BE%8Bdemo)
     - [参考](#%E5%8F%82%E8%80%83)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# 设计模式学习DEMO
-
+  
 ## 设计模式的分类
 
 - 创建型
@@ -40,14 +33,15 @@
 
 ## 示例demo
 
-- [适配器模式](src/main/java/demo/AdapterDemo.java)
-- [装饰器模式](src/main/java/demo/DecoratorDemo.java)
-- [工厂方法模式](src/main/java/demo/FactoryDemo.java)
-- [观察者模式](src/main/java/demo/ObServerDemo.java)
-- [原型模式](src/main/java/demo/PrototypeDemo.java)
-- [代理模式](src/main/java/demo/ProxyDemo.java)
-- [责任链模式](src/main/java/demo/responsibilityDemo.java)
-- [单例模式](src/main/java/demo/SingletonDemo.java)
+- [适配器模式](src/main/java/adapter)
+- [装饰器模式](src/main/java/decorator)
+- [工厂方法模式](src/main/java/fatory)
+- [观察者模式](src/main/java/observer)
+- [原型模式](src/main/java/prototype)
+- [代理模式](src/main/java/proxy)
+- [责任链模式](src/main/java/responsibility)
+- [单例模式](src/main/java/singleton)
+- [策略模式](src/main/java/Strategy)
 
 ## 参考
 

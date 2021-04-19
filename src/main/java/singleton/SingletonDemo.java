@@ -1,4 +1,4 @@
-package demo;
+package singleton;
 
 /**
  * 单例模式 DCL双重检验锁
