@@ -1,20 +1,16 @@
 package Strategy;
 
+import lombok.AllArgsConstructor;
+import lombok.Setter;
+
 /**
  * @author ZhaoWeiLong
  * @date 2021/4/26
- **/
+ */
+@AllArgsConstructor
 public class Context {
 
-  private Strategy strategy=null;
-
-  public void setStrategy(Strategy strategy) {
-    this.strategy = strategy;
-  }
-
-  public Context(Strategy strategy) {
-    this.strategy = strategy;
-  }
+  @Setter private Strategy strategy;
 
   public void doStrategy() {
     strategy.strategyImplementation();
