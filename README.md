@@ -44,6 +44,7 @@
 - [策略模式](src/main/java/Strategy)
 - [状态模式](src/main/java/state)
 - [模板模式](src/main/java/template)
+- [管道模式](src/main/java/pipeline)
 
 ## 参考
 
